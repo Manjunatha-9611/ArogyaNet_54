@@ -1,0 +1,87 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('https://www.tigahealth.com/wp-content/uploads/2024/02/medical-healthcare-pharmaceutical-compliance-with-law-regulations-policies-showing-human-rights-insurance-shield-law-icon-pharmacy-healthcare-contract-rule.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
+}
+
+button {
+    background-color: pink;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s, transform 0.2s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #1f6d9f;
+    transform: scale(0.98);
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.footer a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
